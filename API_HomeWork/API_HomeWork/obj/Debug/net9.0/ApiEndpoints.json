@@ -1,0 +1,100 @@
+[
+  {
+    "ContainingType": "API_HomeWork.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__1_0",
+    "RelativePath": "instruments",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_HomeWork.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__1_1",
+    "RelativePath": "instruments",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "API_HomeWork.Program\u002BCreateInstrumentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_HomeWork.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__1_3",
+    "RelativePath": "instruments/by-id-greater/{threshold:int}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "threshold",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_HomeWork.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__1_2",
+    "RelativePath": "instruments/by-name/{name}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_HomeWork.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__1_4",
+    "RelativePath": "instruments/clear",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
